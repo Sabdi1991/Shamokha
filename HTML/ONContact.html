@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Meet the Sham o Kha team - Explore our projects, learn about our teaching philosophy, and get in touch with us.">
+
+    <title>Sham o Kha</title>
+
+    <link rel="stylesheet" href="../CSS/ONstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body class="body" id="body-team">
+
+    <header id="header">
+        <!---این قسمت برای منو های ناوبری بالای صفحه سمت راست است--->
+        <div class="navMenu" id="myNavMenu">
+            <!----این قسمت برای بالای صفحه سمت چپ برای لوگوی صفحه است-->
+            <div class="nav-logo">
+                <a id="logoLink" href="ONHome.html">
+                    <p id="ShamoKha">Sham <br> O <br> Kha</p>
+                </a>
+            </div>
+            <!--منوی ناوبری-->
+            <nav>
+                <ul class="navMenuList">
+
+                    <li class="navList"><a href="../index.html" class="navLink">Home</a></li>
+                    <li class="navList"><a href="#Project">Project</a></li>
+                    <li class="navList"><a href="ONTeam.html">Team</a></li>
+                    <li class="navList"><a href="#teaching">Teaching</a></li>
+                    <li class="navList"><a href="#about">About</a></li>
+                    <li class="navList"><a href="ONContact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+
+            <!--سه خط منو-->
+            <div class="hamburgerMenu">
+                <i class="uil uil-bars" id="hamburger" onclick="myMenuFunction()"></i>
+            </div>
+
+            <!--دکمه سوییچ کردن بین زبان فارسی و انگلیسی-->
+            <div class="launguage_switch">
+                <div class="lang" id="english"><button class="lang-bottun" id="EN">EN</button></div>
+                <div class="lang" id="farsi"><button class="lang-bottun" id="FA">FA</button></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-contact">
+        <form class="form">
+            <div class="col">
+                <div class="row">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" class="field" id="firstName" name="firstName" required>
+                </div>
+                <div class="row">
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" class="field" id="lastName" name="lastName" required>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <label for="phone">Phone*</label>
+                    <input type="tel" class="field" id="phone" name="phone" required>
+                </div>
+                <div class="row">
+                    <label for="email">Email*</label>
+                    <input type="email" class="field" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="message-box">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="myBottum">
+                <button type="submit" class="submit-button">LET'S CONNECT</button>
+            </div>
+        </form>
+        <div class="map">
+
+        </div>
+    </main>
+
+    <footer class="teamFooter">
+
+        <div class="social_icons_team">
+            <div class="icon_circle"></div>
+            <div class="icon_team"><i class="fa-brands uil uil-instagram"></i></div>
+            <div class="icon_team"><i class="uil uil-linkedin-alt"></i></div>
+        </div>
+
+        <div class="bottom-footer">
+
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sabdi</a> - All rights reserved 2024</p>
+
+        </div>
+
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
